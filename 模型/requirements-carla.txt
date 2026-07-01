@@ -1,0 +1,16 @@
+# CARLA 0.9.15 migration environment.
+# Install PyTorch separately according to the machine CUDA version.
+numpy<2
+pandas
+matplotlib
+scipy
+tqdm
+pyyaml
+tensorboard
+gymnasium
+shimmy
+stable-baselines3==2.0.0
+pygame
+networkx
+opencv-python
+carla==0.9.15

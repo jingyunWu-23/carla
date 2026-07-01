@@ -1,0 +1,34 @@
+写入：
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Datasets
+模型/dataset/
+
+# CARLA / training results
+模型/carla_evolution/results/
+模型/MARL1/coevolution_results/
+模型/MARL1/joint_results/
+模型/MARL1/hdv_eval_results/
+
+# Model checkpoints / artifacts
+*.pt
+*.pth
+*.zip
+*.pkl
+
+# Logs and generated tables
+*.log
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
