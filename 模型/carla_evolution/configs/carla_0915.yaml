@@ -17,13 +17,17 @@ carla:
 scenario:
   route_name: merge_smoke
   max_episode_steps: 200
-  route_length: 500.0
+  route_length: 200.0
+  completion_horizon_mode: time_budget
+  completion_target_speed: 18.0
+  completion_time_budget_ratio: 1.1
+  completion_min_distance: 50.0
   route_sample_distance: 2.0
   route_backtrack_distance: 100.0
   traffic_density: 1
-  num_cav: 1
-  num_hdv: 3
-  num_background: 2
+  num_cav: 3
+  num_hdv: 0
+  num_background: 0
   spawn_strategy: relative_route
   spawn_start_index: 0
   spawn_z_offset: 0.5
