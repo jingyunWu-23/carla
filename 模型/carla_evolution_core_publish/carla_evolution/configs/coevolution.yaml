@@ -1,0 +1,25 @@
+training:
+  seed: 669
+  stage_schedule:
+    - name: cav_25
+      rounds: 5
+      traffic_density: 1
+      num_cav: 1
+      num_hdv: 3
+    - name: cav_50
+      rounds: 5
+      traffic_density: 1
+      num_cav: 2
+      num_hdv: 2
+    - name: cav_75
+      rounds: 5
+      traffic_density: 1
+      num_cav: 3
+      num_hdv: 1
+
+evaluation:
+  eval_episodes: 2
+  crash_rate_threshold: null
+  route_completion_threshold: null
+  reward_threshold: null
+

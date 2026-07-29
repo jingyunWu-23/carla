@@ -1,0 +1,6 @@
+name: cav-carla
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+prefix: /home/chenyuanwan/anaconda3/envs/cav-carla
